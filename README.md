@@ -1,2 +1,4 @@
-# API-Design-Guide
+# Purpose and scope
+
 API Design Guide
+
