@@ -16,3 +16,17 @@ Since REST is not a standard but architecture style, it leaves a lot of freedoms
 * **Faster API Design.** Given that APIs behaviour is the same regardless of API, some specifications in Design can be reused as is. 
 * **Testing APIs is faster.** Tests can be more easily modified to fit multiple APIs and thus testing is easier. As a result API development is faster. 
 
+
+
+## General guidelines
+
+Our goal is consistency, maintainability, and best practices across applications. APIs aim to balance a truly RESTful API interface with a positive developer experience \(DX\).
+
+In a nutshell:
+
+* Keep APIs' functionalities as simple as possible. The endpoints do only one thing, but they do it well.
+* Avoid overlapping functionalities between different APIs.
+* In error case include in the API response verbose description.
+  * include also a description about erroneous parameter value, if it is feasible.
+* API must have support for the OPTIONS endpoint to enable cross-origin API calls \(CORS\). 
+

@@ -8,4 +8,5 @@
 * [Error handling](error-handling.md)
 * [Suggest changes](suggest-changes.md)
 * [Authentication and authorization](authentication-and-authorization.md)
+* [Performance](performance.md)
 
