@@ -1,9 +1,5 @@
 # Response codes used
 
-
-
-## Response codes
-
 When the client sends a request to the server through an API, the client must know from the feedback the outcome of the request, whether it succeeded or failed. The reason of failure must also be specified.
 
 The server must always return the corrent status code.
