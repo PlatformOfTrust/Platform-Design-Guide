@@ -11,6 +11,7 @@
 * [Request validation](requests/request-validation.md)
 * [Response codes used](requests/response-codes-used.md)
 * [Error handling](requests/error-handling.md)
+* [Untitled](requests/untitled-1.md)
 
 ## General guidelines
 
@@ -18,4 +19,8 @@
 * [Versioning](general-guidelines/versioning.md)
 * [Documentation](general-guidelines/documentation.md)
 * [Untitled](general-guidelines/untitled.md)
+
+## Headers
+
+* [Mandatory elements](headers/mandatory-elements.md)
 
