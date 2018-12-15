@@ -19,7 +19,7 @@
 
 ## Headers
 
-* [Mandatory elements](headers/mandatory-elements.md)
+* [Mandatory elements & behaviour](headers/mandatory-elements.md)
 
 ## Security
 
