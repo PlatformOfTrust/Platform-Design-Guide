@@ -16,6 +16,7 @@
 * [Documentation](general-guidelines/documentation.md)
 * [Dates and time](general-guidelines/dates-and-time.md)
 * [Naming conventions](general-guidelines/naming-conventions.md)
+* [Use HTTP Methods](general-guidelines/use-http-methods.md)
 
 ## Headers
 
