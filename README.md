@@ -29,4 +29,5 @@ In a nutshell:
 * In error case include in the API response verbose description.
   * include also a description about erroneous parameter value, if it is feasible.
 * API must have support for the OPTIONS endpoint to enable cross-origin API calls \(CORS\). 
+* Use standards - don't reinvent the wheel \(that only causes more work in implementation and in consumer side too\). 
 
