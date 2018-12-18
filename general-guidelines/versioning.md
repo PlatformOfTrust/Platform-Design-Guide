@@ -20,5 +20,5 @@ Example:
 
 `https://api.oftrust.net/v1/marketplace`
 
-If there is any major breaking update, the new set of APIs is named as `v2` .
+If there is any major breaking update, the new set of APIs is named as `v2` . We do not use minor versioning. 
 
