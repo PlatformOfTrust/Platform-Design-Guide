@@ -18,3 +18,7 @@ The access token is used for authenticating all future API requests, has a short
 
 The refresh token is returned in the initial login response, but it is hashed and stored in the database with an expiry timestamp and relationship to the user. This acts as a long-life, password-like secret token, which can be used to request a new short-life JWT access tokens. Refresh tokens also extend their life every time they are used for renewal, meaning that a user doesn’t need to log in again if they continually use the service.
 
+**TODO:** Describe with code example how authentication and authorization is implemented in PoT context
+
+
+
