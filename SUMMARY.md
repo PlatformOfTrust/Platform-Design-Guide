@@ -17,7 +17,7 @@
 * [Dates and time](general-guidelines/dates-and-time.md)
 * [Naming conventions](general-guidelines/naming-conventions.md)
 * [Use HTTP Methods](general-guidelines/use-http-methods.md)
-* [Provide pagination](general-guidelines/provide-pagination.md)
+* [Provide pagination and sorting](general-guidelines/provide-pagination.md)
 
 ## Headers
 
