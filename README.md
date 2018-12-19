@@ -12,6 +12,7 @@ This API Design Guide is intended for Platform of Trust:
 
 * Public and internal REST APIs regarding Marketplace
 * Public REST APIs regarding public data access by 3rd party developers
+* Public REST APIs regarding Digital Twins \(data models\)
 
 ## Aim and reasoning
 
