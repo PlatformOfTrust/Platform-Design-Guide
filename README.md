@@ -6,6 +6,13 @@ description: >-
 
 # Purpose and scope
 
+## Scope
+
+This API Design Guide is intended for Platform of Trust: 
+
+* Public and internal REST APIs regarding Marketplace
+* Public REST APIs regarding public data access by 3rd party developers
+
 ## Aim and reasoning
 
 Since REST is not a standard but architecture style, it leaves a lot of freedoms in implementation. Thus result can be sometimes confusing and hard to learn APIs. API Design Guide is a tool to unify REST APIs in given context. Benefits of API Design Guide can be defined to be: 
