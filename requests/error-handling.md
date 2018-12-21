@@ -83,5 +83,7 @@ POST /v1/register
 }
 ```
 
+## Read more
 
+* [https://nordicapis.com/best-practices-api-error-handling/](https://nordicapis.com/best-practices-api-error-handling/)
 

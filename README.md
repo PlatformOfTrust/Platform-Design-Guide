@@ -1,9 +1,3 @@
----
-description: >-
-  API Design Guide provides practical guidelines for REST API design in Platform
-  of Trust context.
----
-
 # Purpose and scope
 
 ## Scope
