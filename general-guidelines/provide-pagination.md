@@ -1,5 +1,7 @@
 # Pagination, partial response and sorting
 
+### Pagination
+
 Pagination is really important because you don’t want a simple request to be incredibly expensive if there are thousands \(or millions\) of rows of results. It seems obvious, but many neglect this functionality.
 
 API accepts a `from` query string parameter and then returns a limited number of results from that offset \(`200` results\). The amount of returned objects can be adjusted with  a `limit` parameter which has a hard-maximum of `1000` .
@@ -51,6 +53,14 @@ The response should be linked data and contain self, next, prev and last links. 
  
 
 Note that the above example does not necessarily be alphabetically sorted or the latest apps. For that purpose we need to have other query parameters. 
+
+### Sorting
+
+### Partial response
+
+```text
+/market/apps?fields=category,keywords,location 
+```
 
 
 
