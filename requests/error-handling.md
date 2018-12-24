@@ -31,9 +31,9 @@ Now from these cases, two errors returned `422s` regardless of their reasons bei
 
 In the case of per-field errors, the presence of the field as a key in the error is enough of a “code” to indicate that it is a target of a validation error.
 
+**Highly recommend you add a link in your description to more information.**
 
-
-**Field Validation Errors**
+### Field Validation Errors
 
 For returning those per field errors, it may be returned as:
 

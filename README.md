@@ -26,10 +26,12 @@ Our goal is consistency, maintainability, and best practices across applications
 
 In a nutshell:
 
-* Keep APIs' functionalities as simple as possible. The endpoints do only one thing, but they do it well. APIs build for "Answer to Life, the Universe and Everything" are just cumbersome, hard to use, too complex to maintain and error prone. 
-* Avoid overlapping functionalities between different APIs.
-* In error case include in the API response verbose description.
+* **Keep APIs' functionalities as simple as possible.** The endpoints do only one thing, but they do it well. APIs build for "Answer to Life, the Universe and Everything" are just cumbersome, hard to use, too complex to maintain and error prone. 
+* **Avoid overlapping functionalities** between different APIs.
+* **In error case include in the API response verbose description**.
   * include also a description about erroneous parameter value, if it is feasible.
-* API must have support for the OPTIONS endpoint to enable cross-origin API calls \(CORS\). 
-* Use standards - don't reinvent the wheel \(that only causes more work in implementation and in consumer side too\). 
+* **API must have support for the OPTIONS endpoint** to enable cross-origin API calls \(CORS\). 
+* **Use standards** - don't reinvent the wheel \(that only causes more work in implementation and in consumer side too\). 
+* **Keep verbs out of your base URLs.**
+* **Use HTTP verbs** to operate on the collections and elements.
 
