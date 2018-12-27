@@ -19,3 +19,9 @@ Getting started package utilizes sandbox provided by the PoT. Any code run in Ge
 
 ## 3-column documentation
 
+In API documentation we follow the path of most developer friendly documentation which is based on 3 columns. The left is reserved for TOC. Middle part is the description part \(endpoint, function, feature\). The part must contain also business reasons to apply API. The right column is for runnable code examples with selected programming languages.  
+
+![](../.gitbook/assets/3-column-api-docs.png)
+
+
+
