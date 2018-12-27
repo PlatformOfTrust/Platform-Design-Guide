@@ -19,6 +19,7 @@
 * [Use HTTP Methods](general-guidelines/use-http-methods.md)
 * [Pagination, partial response and sorting](general-guidelines/provide-pagination.md)
 * [Use HATEOAS](general-guidelines/use-hateoas.md)
+* [Data models used](general-guidelines/data-models-used.md)
 
 ## Headers
 
