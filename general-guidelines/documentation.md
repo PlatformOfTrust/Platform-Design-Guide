@@ -23,5 +23,5 @@ In API documentation we follow the path of most developer friendly documentation
 
 ![](../.gitbook/assets/3-column-api-docs.png)
 
-
+The right part which contains code examples is utilizing sandbox environment provided for all registered developers. Developer can edit the API call \(in the above example curl based call\), push "execute" button and see the server response below. 
 
