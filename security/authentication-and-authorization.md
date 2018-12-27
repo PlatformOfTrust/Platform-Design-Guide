@@ -20,5 +20,23 @@ The refresh token is returned in the initial login response, but it is hashed an
 
 **TODO:** Describe with code example how authentication and authorization is implemented in PoT context
 
+## OAuth2 
 
+OAuth 2.0 specification defines 4 types of authorization flows:
+
+* **Authorization Code**
+* **Resource Owner Password Credentials**
+* **Implicit**
+* **Client Credentials**
+
+**Implicit** and **Client Credentials** are flows typically reserved for special types of clients. More specifically,
+
+* Implicit: Single-page Javascript Web Applications \(for example, Google Fonts\)
+* Client Credentials: Non-interactive programs for machine-to-machine communications \(for example, background services and daemons\)
+
+### OAuth2 login example
+
+#### Step 1: Authorization Code Link
+
+#### Step 2: User Authorizes Application
 
