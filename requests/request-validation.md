@@ -15,3 +15,7 @@ Partial updates are not allowed. Consistency between database objects must be ma
 * in successful case all requested resources are updated
 * in failure case none of the requested resources is updated.
 
+### Metrics
+
+Metrics used in analyzing the behaviour in Platform of Trust. 
+

@@ -11,3 +11,7 @@ As a rule of thumb,
 
 Reasoning for the above limits is that the customer experience of the applications built on top of our platform depend partially on our APIs responsiveness. Our service including APIs must be efficient and reliable. 
 
+## Metrics
+
+Platform metrics and how it is measured
+
