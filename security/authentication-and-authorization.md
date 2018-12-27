@@ -49,7 +49,7 @@ Loosely speaking, PoT is a platform where third-party applications and services 
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Get code link
+/auth/v2/
 {% endapi-method-summary %}
 
 {% api-method-description %}
