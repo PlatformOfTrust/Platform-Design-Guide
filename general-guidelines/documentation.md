@@ -5,7 +5,7 @@ All APIs must be documented as if it would go public in the future. API document
 ## API Description formats
 
 * Internally we use  RAML due to development pipeline and data model complexity and reuse. 
-* For public APIs we publish Open API Spec descriptions in PoT Developer Portal. 
+* For public APIs we publish [Open API Spec](https://github.com/OAI/OpenAPI-Specification) format \([v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)\) in PoT Developer Portal. 
 
 ## Getting started packages
 
