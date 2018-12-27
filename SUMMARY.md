@@ -12,14 +12,14 @@
 ## General guidelines
 
 * [Performance](general-guidelines/performance.md)
-* [Versioning](general-guidelines/versioning.md)
 * [Documentation](general-guidelines/documentation.md)
+* [Data models used](general-guidelines/data-models-used.md)
+* [Use HATEOAS](general-guidelines/use-hateoas.md)
+* [Use HTTP Methods](general-guidelines/use-http-methods.md)
+* [Versioning](general-guidelines/versioning.md)
 * [Dates and time](general-guidelines/dates-and-time.md)
 * [Naming conventions](general-guidelines/naming-conventions.md)
-* [Use HTTP Methods](general-guidelines/use-http-methods.md)
 * [Pagination, partial response and sorting](general-guidelines/provide-pagination.md)
-* [Use HATEOAS](general-guidelines/use-hateoas.md)
-* [Data models used](general-guidelines/data-models-used.md)
 
 ## Headers
 
