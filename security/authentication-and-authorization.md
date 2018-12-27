@@ -41,11 +41,75 @@ As for other clients, depending on their trustworthiness, they can use the follo
 
 ### Use authorization code flow
 
-Loosely speaking, PoT **is a platform where third-party** **applications and services can access its resources**, thus we use authorization code flow. 
+Loosely speaking, PoT is a platform where third-party applications and services can access its resources, thus we use authorization code flow. 
 
 ### OAuth2 authorization code flow example
 
 #### Step 1: Authorization Code Link
 
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Get code link
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 #### Step 2: User Authorizes Application
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Authorize
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
