@@ -12,7 +12,7 @@ Modern stateless, RESTful APIs implement authentication with tokens. This elimin
 
 **Access Tokens**
 
-The access token is used for authenticating all future API requests, has a short life span and can’t be revoked\*.
+The access token is used for authenticating all future API requests, has a short life span and can’t be revoked.
 
 **Refresh Tokens**
 
@@ -20,7 +20,7 @@ The refresh token is returned in the initial login response, but it is hashed an
 
 **TODO:** Describe with code example how authentication and authorization is implemented in PoT context
 
-## OAuth2 
+## OAuth2 background and options
 
 OAuth 2.0 specification defines 4 types of authorization flows:
 
@@ -31,10 +31,19 @@ OAuth 2.0 specification defines 4 types of authorization flows:
 
 **Implicit** and **Client Credentials** are flows typically reserved for special types of clients. More specifically,
 
-* Implicit: Single-page Javascript Web Applications \(for example, Google Fonts\)
-* Client Credentials: Non-interactive programs for machine-to-machine communications \(for example, background services and daemons\)
+* **Implicit:** Single-page Javascript Web Applications \(for example, Google Fonts\)
+* **Client Credentials:** Non-interactive programs for machine-to-machine communications \(for example, background services and daemons\)
 
-### OAuth2 login example
+As for other clients, depending on their trustworthiness, they can use the following flows:
+
+* **Authorization Code or Resource Owner Password Credentials:** Highly trusted apps \(first-party apps\)
+* **Authorization Code:** Less trusted apps \(third-party apps requesting access to PoT platform\)
+
+### Use authorization code flow
+
+Loosely speaking, PoT **is a platform where third-party** **applications and services can access its resources**, thus we use authorization code flow. 
+
+### OAuth2 authorization code flow example
 
 #### Step 1: Authorization Code Link
 

@@ -18,7 +18,9 @@ Since REST is not a standard but architecture style, it leaves a lot of freedoms
 * **Faster API Design.** Given that APIs behaviour is the same regardless of API, some specifications in Design can be reused as is. 
 * **Testing APIs is faster.** Tests can be more easily modified to fit multiple APIs and thus testing is easier. As a result API development is faster. 
 
+## Metrics 
 
+Metrics used in Platform of Trust are defined under the topics. 
 
 ## General guidelines
 

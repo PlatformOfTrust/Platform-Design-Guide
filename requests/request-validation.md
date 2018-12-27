@@ -1,5 +1,7 @@
 # Request validation
 
+### Validation process
+
 When handling any request, API must check whether
 
 * User requesting an operation has an account
