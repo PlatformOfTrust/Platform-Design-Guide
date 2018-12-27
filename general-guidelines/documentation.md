@@ -11,7 +11,11 @@ All APIs must be documented as if it would go public in the future. API document
 
 Each API must have getting started package which enables first great experience in under 3 minutes. The package can be implemented as part of the documentation described below or as separate section in Developer Portal. 
 
-Getting started package utilizes sandbox provided by the PoT. 
+Package shows how most common feature of the API is used. Package must contain runnable conde examples. Developer can choose whether to run code in browser \(provided always\) or in command-line in own machine. Result must be identical in both cases. On top of the code, API response with headers \(and possible errors\) must be visible to the user. 
+
+Getting started package utilizes sandbox provided by the PoT. Any code run in Getting started package is run only in snadbox environment, never in production environment. 
+
+
 
 ## 3-column documentation
 
