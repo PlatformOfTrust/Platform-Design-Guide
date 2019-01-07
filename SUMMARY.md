@@ -24,6 +24,7 @@
 ## Headers
 
 * [Mandatory elements & behaviour](headers/mandatory-elements.md)
+* [Rate limiting information](headers/rate-limiting-information.md)
 
 ## Security
 
