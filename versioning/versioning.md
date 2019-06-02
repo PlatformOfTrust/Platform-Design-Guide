@@ -1,4 +1,4 @@
-# Versioning
+# Rules
 
 ### When to do new version?
 

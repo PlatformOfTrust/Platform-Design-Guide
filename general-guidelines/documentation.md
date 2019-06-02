@@ -5,7 +5,9 @@ All APIs must be documented as if it would go public in the future. API document
 ## API Description formats
 
 * Internally we use  RAML due to development pipeline and data model complexity and reuse. 
-* For public APIs we publish [Open API Spec](https://github.com/OAI/OpenAPI-Specification) format \([v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)\) in PoT Developer Portal. 
+* For exposed APIs we publish [Open API Spec](https://github.com/OAI/OpenAPI-Specification) format \([v2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)\) in API Documentation. 
+  * For this purpose RAML spec \(+ includes\) must be in folder following the API name.
+  * Example: Product API is in `product-api` folder in [https://github.com/PlatformOfTrust/docs/tree/master/raml2markdown/src](https://github.com/PlatformOfTrust/docs/tree/master/raml2markdown/src) 
 
 ## Getting started packages
 

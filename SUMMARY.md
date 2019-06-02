@@ -16,7 +16,6 @@
 * [Data models used](general-guidelines/data-models-used.md)
 * [Use HATEOAS](general-guidelines/use-hateoas.md)
 * [Use HTTP Methods](general-guidelines/use-http-methods.md)
-* [Versioning](general-guidelines/versioning.md)
 * [Dates and time](general-guidelines/dates-and-time.md)
 * [Naming conventions](general-guidelines/naming-conventions.md)
 * [Pagination, partial response and sorting](general-guidelines/provide-pagination.md)
@@ -30,4 +29,11 @@
 
 * [Authentication and authorization](security/authentication-and-authorization.md)
 * [SSL everywhere - all the time](security/untitled-1.md)
+
+## Versioning & changes
+
+* [Rules](versioning/versioning.md)
+* [Retirement process](versioning/retirement-process.md)
+* [Add new API to documentation](versioning/add-new-api-to-documentation.md)
+* [Add new endpoint](versioning/add-new-endpoint.md)
 
