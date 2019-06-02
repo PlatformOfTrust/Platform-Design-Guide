@@ -10,6 +10,12 @@ Steps to follow:
 2. Add RAML file \(+ includes\) to [https://github.com/PlatformOfTrust/docs/tree/master/raml2markdown/src](https://github.com/PlatformOfTrust/docs/tree/master/raml2markdown/src) 
    * Create folder for new API and follow filename format: apiname-api
      * For example Broker API is broker-api, Identity API is identity-api. 
+   * Ensure that methods in the RAML are listed always in the same order:
+     * Add something \(POST\)
+     * Display \(GET\)
+     * Update something / or replace \(PUT\)
+     * Update / modify \(PATCH\)
+     * remove something \(DELETE\)
 3. Add code example files for each endpoint and method to: [https://github.com/PlatformOfTrust/docs/tree/master/raml2markdown/examples](https://github.com/PlatformOfTrust/docs/tree/master/raml2markdown/examples)
    * Filename format: api-name\_METHOD\_endpointpath.md
    * For example Broker API POST method: **broker-api\_POST\_broker\_version\_fetch-data-product.md**
