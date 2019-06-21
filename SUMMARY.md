@@ -30,9 +30,10 @@
 * [Authentication and authorization](security/authentication-and-authorization.md)
 * [SSL everywhere - all the time](security/untitled-1.md)
 
-## Versioning & changes
+## Versioning & changes <a id="versioning"></a>
 
 * [Rules](versioning/versioning.md)
+* [Breaking changes](versioning/breaking-changes.md)
 * [Retirement process](versioning/retirement-process.md)
 * [Add new API to documentation](versioning/add-new-api-to-documentation.md)
 * [Add new endpoint](versioning/add-new-endpoint.md)
