@@ -38,3 +38,10 @@
 * [Add new API to documentation](versioning/add-new-api-to-documentation.md)
 * [Add new endpoint](versioning/add-new-endpoint.md)
 
+## Ontologies
+
+* [About ontologies](ontologies/about-ontologies.md)
+* [Add new class](ontologies/add-new-class.md)
+* [Update existing class](ontologies/update-existing-class.md)
+* [Naming convention logic](ontologies/naming-convention-logic.md)
+
