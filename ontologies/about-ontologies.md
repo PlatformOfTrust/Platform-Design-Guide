@@ -1,4 +1,4 @@
 # About ontologies
 
-Foobar
+Coming from Vesa/Seba
 
