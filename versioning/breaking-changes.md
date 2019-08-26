@@ -1,5 +1,7 @@
 # Breaking changes
 
+## Breaking changes regarding APIs
+
 **Changing an invocation signature.**
 
 If you add optional parameters to an invocation target, that can be safe. But, if you add required parameters; or, if you add optional parameters that change the default behavior of the invocation; that is a breaking change. Doing so will require the consumer to update their invocation arguments in order to adapt to the change.
@@ -52,5 +54,5 @@ Ok, that's maybe a bad example. But, just think of the way in which we depend on
 
 There are many benefits to moving an API behind a Content-Delivery Network \(CDN\). Automatic compression; image optimization; DDOS protection; to name a few. But, a CDN adds "API" semantics in the sense that it injects its own HTTP headers into both the request and the response data. A consumer may come to depend on those injected HTTP headers. For example, the Cloudflare CDN injects a "country" header that can be used to help implement geofencing internally to an application. If the application context were to be moved to another CDN that no longer injected the same HTTP headers, both internal and external consumers may have to change in order to make up for the missing data.
 
-
+## Breaking changes regarding ontology
 

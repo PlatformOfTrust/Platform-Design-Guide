@@ -44,4 +44,5 @@
 * [Add new class](ontologies/add-new-class.md)
 * [Update existing class](ontologies/update-existing-class.md)
 * [Naming convention logic](ontologies/naming-convention-logic.md)
+* [Extending the ontology](ontologies/extending-the-ontology.md)
 
