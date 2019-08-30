@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Purpose and scope](README.md)
+* [Developer eXperience Strategy](developer-experience-strategy.md)
 * [Suggest changes](suggest-changes.md)
 
 ## API Requests <a id="requests"></a>
