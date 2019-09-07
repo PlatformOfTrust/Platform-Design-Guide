@@ -6,6 +6,7 @@ This API Design Guide is intended for Platform of Trust:
 
 * Internal REST APIs 
 * Public exposed REST APIs regarding public data access by 3rd party developers and listed in API Docs 
+* Developer eXperience 
 * Internal Development practices
 * Ontology development and guidance. 
 
