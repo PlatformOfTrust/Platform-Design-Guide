@@ -20,6 +20,7 @@
 * [Dates and time](general-guidelines/dates-and-time.md)
 * [Naming conventions](general-guidelines/naming-conventions.md)
 * [Pagination, partial response and sorting](general-guidelines/provide-pagination.md)
+* [API Testing](general-guidelines/api-testing.md)
 
 ## API Headers <a id="headers"></a>
 
