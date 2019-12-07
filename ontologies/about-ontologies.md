@@ -7,3 +7,9 @@ description: >-
 
 # About ontologies
 
+## Platform of Trust Core Ontology
+
+Platform of Trust Core Ontology 
+
+### 
+
