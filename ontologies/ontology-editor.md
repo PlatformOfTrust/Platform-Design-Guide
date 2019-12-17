@@ -4,7 +4,7 @@ description: Protégé - Tool for editing ontologies
 
 # Ontology editor
 
-Protégé is a free to use open source ontology editor. 
+Protégé is a free to use open source ontology editor. It is used for editing PoT ontologies.
 
 **How to download and install Protégé ontology editor**
 
