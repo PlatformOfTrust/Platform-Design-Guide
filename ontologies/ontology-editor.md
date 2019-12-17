@@ -1,5 +1,5 @@
 ---
-description: Tool for editing ontologies
+description: Protégé - Tool for editing ontologies
 ---
 
 # Ontology editor
