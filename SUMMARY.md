@@ -44,6 +44,7 @@
 
 * [About ontologies](ontologies/about-ontologies.md)
 * [Ontology editor](ontologies/ontology-editor.md)
+* [Editing the ontology](ontologies/editing-the-ontology.md)
 * [Add new subclass](ontologies/add-new-class.md)
 * [Update existing class](ontologies/update-existing-class.md)
 * [Naming convention logic](ontologies/naming-convention-logic.md)
