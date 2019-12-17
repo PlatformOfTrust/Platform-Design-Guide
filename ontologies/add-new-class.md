@@ -2,7 +2,7 @@
 description: with Protégé
 ---
 
-# Add new subclass
+# Adding new subclass
 
 1. Right click the class that underneath you want to add a new subclass
 2. Select Add new subclass...

@@ -46,7 +46,7 @@
 * [Web Ontology Language, OWL](ontologies/web-ontology-language-owl.md)
 * [Ontology editor](ontologies/ontology-editor.md)
 * [Editing the ontology](ontologies/editing-the-ontology.md)
-* [Add new subclass](ontologies/add-new-class.md)
+* [Adding new subclass](ontologies/add-new-class.md)
 * [Naming convention logic](ontologies/naming-convention-logic.md)
 * [Extending the ontology](ontologies/extending-the-ontology.md)
 
