@@ -9,7 +9,9 @@ description: >-
 
 ## Platform of Trust Core Ontology
 
-Platform of Trust Core Ontology 
+PoT Core Ontology covers the areas of build environment, indoor condition sensors and other devices in buildings, data products, maintenance service requests, and many more.
+
+PoT Core Ontology can be viewed at [https://standards.oftrust.net/](https://standards.oftrust.net/)
 
 ### 
 
