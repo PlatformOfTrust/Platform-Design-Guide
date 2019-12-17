@@ -13,5 +13,7 @@ PoT Core Ontology covers the areas of built environment, indoor condition sensor
 
 PoT Core Ontology can be viewed at [https://standards.oftrust.net/](https://standards.oftrust.net/)
 
+PoT Core Ontology is described with OWL.
+
 ### 
 
