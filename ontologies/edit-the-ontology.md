@@ -4,7 +4,7 @@ description: According to W3C principles and PoT guidelines
 
 # Edit ontology
 
-Opening PoT Core Ontology file with Protégé is easy. The editor is easy to use but you should know what you are doing. These guides will get you started:
+Opening PoT Core Ontology file with Protégé is easy. The editor is easy to use but you should know what you are doing. In general, you should be logical and consistent. These guides will get you started:
 
 The W3C Web Ontology Language guide is here: [https://www.w3.org/TR/owl-guide/](https://www.w3.org/TR/owl-guide/)
 
