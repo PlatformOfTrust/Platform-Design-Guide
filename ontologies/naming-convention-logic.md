@@ -4,7 +4,7 @@ description: 'Upper camel case naming for classes, camel case for properties'
 
 # Naming convention logic
 
-When naming the classes, use upper camel case naming convention.
+When naming the classes, use upper camel case \(also known as Pascal case\) naming convention.
 
 For example, UpperCamelCase
 
