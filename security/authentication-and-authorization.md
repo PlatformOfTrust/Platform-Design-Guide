@@ -8,7 +8,7 @@ This doesn’t limit APIs to a user as an authorized person, as it allows servic
 
 ### Basic rule for error handling
 
-A 401 Unauthorized response should be used for missing or bad authentication, and a 403 Forbidden response should be used afterwards, when the user is authenticated but isn’t authorized to perform the requested operation on the given resource.
+**A 401 Unauthorized** response should be used for missing or bad authentication, and a **403 Forbidden** response should be used afterwards, when the user is authenticated but isn’t authorized to perform the requested operation on the given resource.
 
 #### Use Access and Refresh Tokens <a id="9549"></a>
 
