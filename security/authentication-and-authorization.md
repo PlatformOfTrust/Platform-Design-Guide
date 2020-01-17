@@ -4,7 +4,11 @@ REST APIs should be stateless. Every request should be self-sufficient and must 
 
 Previously, developers stored user information in server-side sessions, which is not a scalable approach. For that reason, every request should contain all the information of a user \(if it’s a secure API\), instead of relying on previous requests.
 
-This doesn’t limit APIs to a user as an authorized person, as it allows service-to-service authorization as well. For user authorization, JWT \(JSON Web Token\) with OAuth2 provides a way to achieve this. Additionally, for service-to-service communication, try to have the encrypted API-key passed in the header. 
+This doesn’t limit APIs to a user as an authorized person, as it allows service-to-service authorization as well. For user authorization, JWT \(JSON Web Token\) with OAuth2 provides a way to achieve this. Additionally, for service-to-service communication, try to have the encrypted API-key passed in the header.
+
+### Basic rule for error handling
+
+A 401 Unauthorized response should be used for missing or bad authentication, and a 403 Forbidden response should be used afterwards, when the user is authenticated but isn’t authorized to perform the requested operation on the given resource.
 
 #### Use Access and Refresh Tokens <a id="9549"></a>
 
