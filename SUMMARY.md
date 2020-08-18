@@ -36,6 +36,7 @@
 
 * [Versioning Rules](versioning/rules.md)
 * [Breaking changes](versioning/breaking-changes.md)
+* [Non-breaking changes example](versioning/non-breaking-changes.md)
 * [Retirement process](versioning/retirement-process.md)
 * [Add new API to documentation](versioning/add-new-api-to-documentation.md)
 * [Add new endpoint](versioning/add-new-endpoint.md)
