@@ -34,7 +34,7 @@
 
 ## API versioning guidelines <a id="versioning"></a>
 
-* [Rules](versioning/rules.md)
+* [Versioning Rules](versioning/rules.md)
 * [Breaking changes](versioning/breaking-changes.md)
 * [Retirement process](versioning/retirement-process.md)
 * [Add new API to documentation](versioning/add-new-api-to-documentation.md)
