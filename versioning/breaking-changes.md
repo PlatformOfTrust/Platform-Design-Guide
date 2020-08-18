@@ -2,57 +2,70 @@
 
 ## Breaking changes regarding APIs
 
-**Changing an invocation signature.**
+### Changing the request format <a id="user-content-changing-the-request-format"></a>
 
-If you add optional parameters to an invocation target, that can be safe. But, if you add required parameters; or, if you add optional parameters that change the default behavior of the invocation; that is a breaking change. Doing so will require the consumer to update their invocation arguments in order to adapt to the change.
+This includes the following type of changes:
 
-**Changing a response structure.**
+ • Renaming the endpoint  
+ • Removing an existing method \(POST, PUT etc.\)  
+ • Renaming a field used in the request \(either mandatory or optional\)  
+ • Updating the structure or signature of the request  
+ • Making a parameter as required \(which was previously not required\)  
+ • Modifying the data type of an existing field  
+ • Changing the supported filtering on an existing endpoint  
+ • Updating the URL structure of an existing endpoint  
+ • The addition of a new feature that will change the purpose of an existing field  
+ • The addition of a new validation or updating an existing validation to an existing resource  
+ • Modifying the request logic related to pagination
 
-When we talk about data structures, we often talk in terms of "additive" changes vs. "breaking" changes. The idea being that if you only add new properties to an existing structure, the consumer can safely ignore them at first; then, incrementally update the code to consume the new properties as needed.
+Doing any of these updates will require the consumer to update their API requests in order to adapt to the change\(s\).
 
-But, is this always true? What if the consumer needs to serialize the data and store it in a database column that has a constrained character size? In such a case, even an "additive" change could cause an unexpected database truncation error.
+### Changing the response format <a id="user-content-changing-the-response-format"></a>
 
-Or, imagine that the response was being logged to a file. An increase in the response payload size could change the velocity with which log files take up disk-space. This, in turn, could cause issues if the log files aren't being rotated quickly enough.
+This includes the following type of changes:
 
-**Changing a response code.**
+ • Updating the structure of the response \(including the pagination info\)  
+ • Renaming a field used in the response  
+ • Modifying the data type of an existing field  
+ • Changing the response code  
+ • Changing error types or the structure of the error message
 
-Changing a response code is like changing a response data structure. If the consumer's logic examines the response code, the consumer may have to change their logic in order to cope with the change in response code.
+Doing any of these updates will require the consumer to update their API response handling logic in order to adapt to the change\(s\).
 
-But, what if you do something less obvious like implement ETag support. In such a case, an API that always responded with a 200 OK could suddenly start responding with a 304 Not Modified response. Such a change could cause runtime errors for a consumer that never had to deal with a functioning ETag workflow before.
+### Changing the event format <a id="user-content-changing-the-event-format"></a>
 
-**Changing error types, messages, and other details.**
+This includes the following type of changes:
 
-When it comes to error handling, consumers implement all kinds of crazy-ass logic in order to understand the errors that are coming back from a system or module. This could mean looking at error Types and Messages. It could also mean performing string-parsing on the extended data provided in an error. As such, any change to the content of an error object could, theoretically, break the error handling logic in the consuming context.
+ • Renaming the event  
+ • Removing an event  
+ • Changing the type of the event  
+ • Changing the event payload \(this is actually bound to the same rules as changing the response\)
 
-**Changing event types.**
+Doing any of the above changes, consumers will have to modify their code in order to cope with the event update\(s\).
 
-An event type is akin to a method signature or a RESTful resource location. As such, if you change an event type, consumers will have to change their code in order to listen for the new events.
+### Changing the authentication type or authorization scopes <a id="user-content-changing-the-authentication-type-or-authorization-scopes"></a>
 
-**Changing event payloads.**
+Changing how consumers can authenticate to use our services or updating any of the existing authorization scopes \(by limiting the scope; expanding the scope is not a breaking change\) will require the consumers to change the way they are consuming our services in their own applications.
 
-An event payload is akin to a response structure. As such, changing an event payload incurs the same problems as changing a response structure. In so much as an "additive" change will likely be OK in the vast majority of cases. But, that even an "additive" change can cause unexpected errors depending on how the consumer is processing the event.
+### Changing rate limiting rules <a id="user-content-changing-rate-limiting-rules"></a>
 
-**Changing testable class hierarchies.**
+Changing the rate limiting information in the header or implementing rate limiting for the first time will most likely require consumers react by:   
+• Adapting their request patterns to cope with the updated limit   
+• Changing their subscription cope with the rate limit update.
 
-Changing the inheritance chain or prototype chain of an object is the same as changing its Type. As such, any consumer that inspects the type of an object, either declaratively as a Type annotation or imperatively with something like instanceof, will need to change their code in order to consume the new class definition.
+### Changing request or response caching strategies <a id="user-content-changing-request-or-response-caching-strategies"></a>
 
-**Changing rate limiting rules.**
+Changing any of the policies or backend logic related to the request or response caching will definitely affect part of the consumers \(especially the ones that expect their data to be current\).
 
-Changing the rate limiting strategies for a service - or implementing rate limiting for the first time - may require a consumer to refactor their invocation patterns so as not to hit a rate-limit ceiling. Or, they may have to come up with totally new strategies if a rate-limit ceiling is too low. Or, they may have to upgrade to a more substantial API subscription with higher rate limits.
+### Changing components that are loose or tightly coupled <a id="user-content-changing-components-that-are-loose-or-tightly-coupled"></a>
 
-**Changing caching strategies.**
+In the scenario where we have one or more components that are not completely de-coupled, we may encounter a scenario where changing one of the components \(even if this were a non-breaking change\) would introduce a breaking change to one or more of the coupled components, which of course need to be updated to a new version.
 
-If a change in caching strategies is completely transparent, then it's not a breaking change. But, the moment there's a possibility that stale data can be presented to a client, that's a breaking change \(assuming that the consumer is not expecting the possibility of and / or the magnitude of such staleness\). So, for example, updating an API response to read from a database replica instead of the database master is a definitely a breaking change.
+So, in this scenario, all of the involved coupled components would need to be upgraded to a new major version.
 
-**Changing the connaissance of time.**
+### Changing testable class hierarchies <a id="user-content-changing-testable-class-hierarchies"></a>
 
-A consumer doesn't just consume end-points or methods, it consumes a "system". As such, if a system as a whole changes the way workflows are orchestrated internally, this could be considered a breaking change. Imagine a scenario in which a DELETE request triggers a "deleted" event that gets pushed to a publish-and-subscribe mechanism. If "deleted" events went from being published instantly to being published at night in a "batch job", the only thing that changed would be the "connaissance of time". But, if a consumer expected those events to be published in a more immediate fashion, the consuming code may have to change in order to cope with the new timing.
-
-Ok, that's maybe a bad example. But, just think of the way in which we depend on the relative timing of related actions in a system. Imagine that your database replica lag suddenly went from sub-second times to several hours. It is very likely that you would have to change your application code to deal with such a change in timing.
-
-**Changing content-distribution \(CDN\) strategies.**
-
-There are many benefits to moving an API behind a Content-Delivery Network \(CDN\). Automatic compression; image optimization; DDOS protection; to name a few. But, a CDN adds "API" semantics in the sense that it injects its own HTTP headers into both the request and the response data. A consumer may come to depend on those injected HTTP headers. For example, the Cloudflare CDN injects a "country" header that can be used to help implement geofencing internally to an application. If the application context were to be moved to another CDN that no longer injected the same HTTP headers, both internal and external consumers may have to change in order to make up for the missing data.
+Changing the inheritance chain or prototype chain of an object is the same as changing its Type. As such, any consumer that inspects the type of an object, either declaratively as a Type annotation or imperatively with something like “instance of”, will need to change their code in order to consume the new class definition.
 
 ## Breaking changes regarding ontology
 
