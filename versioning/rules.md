@@ -8,7 +8,7 @@ In addition, whenever an API is upgraded in any way, we need to keep in mind if 
 
 ### Provide version information in URL of APIs <a id="user-content-provide-version-information-in-url-of-apis"></a>
 
-The Platform of Trust convention is to have the version in the URL of APIs. The main reason for this is to ensure browser explorability of the resources across versions.
+The Platform of Trust convention is to have the version in the URL of APIs. The main reason for this is to ensure browsing capability of navigating to the resources across versions.
 
 Also, we only use major versioning, so we do not use any minor versioning
 
