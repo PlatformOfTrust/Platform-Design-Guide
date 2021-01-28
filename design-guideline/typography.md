@@ -37,7 +37,7 @@ For list pages, `H1` is accompanied by classes `.base-main-title` and `.main-tit
  
 ```
 
-For single pages, H1 is accompanied by class `.single-page-main-title`
+For single pages, `H1` is accompanied by class `.single-page-main-title`
 
 ```text
 <h1 class="single-page-main-title">Data Products</h1>
