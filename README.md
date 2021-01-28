@@ -9,6 +9,7 @@ This API Design Guide is intended for Platform of Trust:
 * Developer eXperience 
 * Internal Development practices
 * Ontology development and guidance. 
+* Design guidelines for visual elements
 
 ## Aim and reasoning
 

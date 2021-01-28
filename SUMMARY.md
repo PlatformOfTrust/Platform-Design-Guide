@@ -51,3 +51,7 @@
 * [Naming convention logic](ontologies/naming-convention-logic.md)
 * [Extending the ontology](ontologies/extending-the-ontology.md)
 
+## Design Guideline
+
+* [Colors](design-guideline/colors.md)
+
