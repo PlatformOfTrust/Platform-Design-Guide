@@ -54,4 +54,5 @@
 ## Design Guideline
 
 * [Colors](design-guideline/colors.md)
+* [Typography](design-guideline/typography.md)
 

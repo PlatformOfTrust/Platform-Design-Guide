@@ -34,9 +34,9 @@ description: >-
 * **RGB**: 42 / 191 / 240
 * **CMYK**: 78 / 19 / 0 / 6
 
-#### Light blue ![](../.gitbook/assets/pot-light-blue.png) 
+#### Light blue  
 
-![](../.gitbook/assets/pot-light-blue%20%281%29.png)
+![](../.gitbook/assets/pot-light-blue.png)
 
 * **HEX**: \#EAF5FF
 * **RGB**: 234 / 245 / 255
