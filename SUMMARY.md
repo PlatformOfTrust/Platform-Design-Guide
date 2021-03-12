@@ -41,6 +41,11 @@
 * [Add new API to documentation](versioning/add-new-api-to-documentation.md)
 * [Add new endpoint](versioning/add-new-endpoint.md)
 
+## API Migration Policies
+
+* [Deprecating an older API](api-migration-policies/deprecating-an-older-api.md)
+* [Notifications for migration and API blackout tests](api-migration-policies/notifications-for-migration-and-api-blackout-tests.md)
+
 ## Ontologies
 
 * [About ontologies](ontologies/about-ontologies.md)
