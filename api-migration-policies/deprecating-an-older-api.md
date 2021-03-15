@@ -14,7 +14,7 @@ Send **Migration Announcement email** to developer customers, emphasizing the _*
 
 * **Last date** and time of Older API versions functioning: **YYYY-MM-DD hh:mm \(timezone\)**
 * List of **APIs versions affected** - URLs
-* Reasons for their deprecation
+* **Reasons** for their deprecation
 * List of **environments** and **services** affected - URLs
 * **Latest API versions**, already up and running, that would replace the older ones and their **documentation** - URLs
 * **Benefits** of newest versions
