@@ -44,6 +44,8 @@ Designs need to be changed and implemented for the API responses for the older v
 
 Depending on the strategy taken, include `sunset` or `deprecation` **header**\(s\) in API responses, mentioning _**date and times**_ when the API\(s\) will no longer work or be given maintenance support, _**endpoint URLs**_ and _**documentation links to the newer API versions**_, etc.
 
+### Changes in SDKs
+
 ### Using analytics to monitor API endpoint usages
 
 If **older API version endpoints** are already being **monitored** by some **usage analytics**, inspect the changes in usage traffic _**after the migration announcements**_ and _**executing blackout test**_s. See if the usage traffic is still high in these endpoints or no. 
