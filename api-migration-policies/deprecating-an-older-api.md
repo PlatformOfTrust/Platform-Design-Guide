@@ -20,7 +20,7 @@ Send **Migration Announcement email** to developer customers, emphasizing the _*
 * **Benefits** of newest versions
 * List of possible **blackout tests**, along with their **dates and times**.
 
-We recommend sending subsequent reminder emails in every two months with the 6-month migration period. Sample Email template can be found here
+We recommend _**sending subsequent reminder emails every two months**_ with the **6-month migration** period. A Sample Email template can be found here.
 
 ### Official announcements in Social Media
 
@@ -32,9 +32,17 @@ Make an **official announcement** about the migration process on the _**company 
 
 Notify developers of the upcoming Older API deprecation by including a **small announcement text** in the relevant API documentation. The announcement should include the _**last date of API\(s\) functioning**_ and _**links**_ to _**endpoints**_ of the _**latest**_ ****_**versions**_, _**documentation,**_ and \(if possible\) new _**SDKs**_.
 
-A **tagline,** named `deprecated` or `sunset`, depending on the approach you undertake for stopping an older version API to function, can be appended in the API documentation. More about this is discussed in upcoming sections.
+A **tagline,** named `deprecated` or `sunset`, depending on the approach you undertake for stopping an older version API to function, should be appended in the API documentation. More about this is discussed in upcoming sections.
+
+Provide **communications means** in the documentation so that developers can contact and ask questions or share their worries.
 
 At the time close to the deadline, we recommend **removing documentation for the older APIs** so that they are no longer accessible to new customers as well as the existing ones.
+
+### Sunset of Deprecation information in API Response headers
+
+Designs need to be changed and implemented for the API responses for the older versions.
+
+Depending on the strategy taken, include `sunset` or `deprecation` **header**\(s\) in API responses, mentioning _**date and times**_ when the API\(s\) will no longer work or be given maintenance support, _**endpoint URLs**_ and _**documentation links to the newer API versions**_, etc.
 
 ### Using analytics to monitor API endpoint usages
 
@@ -43,6 +51,12 @@ If **older API version endpoints** are already being **monitored** by some **usa
 If the traffic continues to be high or to increase, we recommend _**approaching the users still working with the older versions**_ and asking them about the reasons they are still using them. They should be made aware of the possible consequences when the older APIs will no longer work. In addition, they should be assisted to migrate to the newest versions with the required assistance.
 
 ### Executing API Blackout Tests
+
+We recommend executing atleast **3 API blackout tests**, where customers will be unable to request older API versions in any environments \(e.g. _**Sandbox**_, _**Production**_, etc.\).
+
+**Emails** announcing and reminding about blackout tests should be sent to customers prior to the date when the test will be executed. The email should include the _**date**_, _**time**_ \(inc. _**timezone**_\), _**estimated**_ _**duration of the blackout test**_, _**affected APIs**_ and _**services**_, and _**alternate APIs to use**_ during this period. A sample email template can be found here.
+
+Arrange blackout tsts on such day\(s\) of a week, so that it affects the customers in the least possible ways. If possible, we recommend executing blackout tests on **weekends** \(e.g. _**Saturday**_ or _**Sunday**_\)
 
 
 
