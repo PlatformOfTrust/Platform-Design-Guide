@@ -48,6 +48,7 @@
 * [Blackout Testing](api-migration-policies/blackout-testing.md)
 * [Migration Email Template](api-migration-policies/notifications-for-migration-and-api-blackout-tests.md)
 * [API Blackout Test Email Template](api-migration-policies/api-blackout-test-email-template.md)
+* [API Deprecation Email](api-migration-policies/api-deprecation-email.md)
 * [Deprecating an older API](api-migration-policies/deprecating-an-older-api.md)
 
 ## Ontologies
