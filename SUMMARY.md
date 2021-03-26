@@ -43,12 +43,12 @@
 
 ## API Migration Policies
 
-* [Deprecating an older API](api-migration-policies/deprecating-an-older-api.md)
 * [Deprecating API](api-migration-policies/deprecating-api.md)
 * [Sunsetting API](api-migration-policies/sunsetting-api.md)
 * [Blackout Testing](api-migration-policies/blackout-testing.md)
 * [Migration Email Template](api-migration-policies/notifications-for-migration-and-api-blackout-tests.md)
 * [API Blackout Test Email Template](api-migration-policies/api-blackout-test-email-template.md)
+* [Deprecating an older API](api-migration-policies/deprecating-an-older-api.md)
 
 ## Ontologies
 
